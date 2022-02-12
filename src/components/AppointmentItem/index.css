@@ -1,0 +1,35 @@
+.appointment {
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid #9897f0;
+  padding: 13px 13px 0;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.text-container {
+}
+
+.para2 {
+  color: #171f46;
+  font-size: 24px;
+  margin-top: 2px;
+}
+
+.para3 {
+  color: #9897f0;
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.image1 {
+  height: 35px;
+  width: 35px;
+  margin-left: 25px;
+}
+
+.button1 {
+  border-style: none;
+  outline: none;
+  background: transparent;
+}

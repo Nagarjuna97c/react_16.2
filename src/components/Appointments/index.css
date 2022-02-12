@@ -1,0 +1,98 @@
+* {
+  font-family: 'Roboto';
+}
+.background-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+.add-appointments-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button2 {
+  font-size: 24px;
+  border: solid 2px #9796f0;
+  color: #9796f0;
+  padding: 4px 6px;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.button3 {
+  font-size: 24px;
+  border: solid 2px #9796f0;
+  color: #ffffff;
+  padding: 4px 6px;
+  border-radius: 8px;
+  background-color: #9796f0;
+}
+
+.appointment-form-container {
+  padding-right: 25px;
+}
+
+.heading {
+  font-size: 44px;
+  color: #171f46;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.para {
+  font-size: 24px;
+  color: #b5b7c4;
+  margin: 4px;
+}
+
+.input-custom {
+  font-size: 24px;
+  border-color: #9897f0;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  width: 70%;
+  padding: 10px;
+  outline: none;
+}
+
+.button {
+  font-size: 24px;
+  color: #ffffff;
+  padding: 5px 7px;
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  outline: none;
+}
+
+.line {
+  color: #b5b7c4;
+  font-size: 3px;
+  margin: 15px 0;
+}
+
+.appointments-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
